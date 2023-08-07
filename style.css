@@ -6,9 +6,11 @@ body{
     margin: 0;
     padding: 0;
 }
+
 nav{
     background-color: rgb(0, 0, 0);
 }
+
 nav ul{
     display: flex;
     list-style-type: none;
@@ -19,6 +21,7 @@ nav ul li{
     padding: 10px 10px;
     color: white;
 }
+
 nav .logo img{
     width: 60px;
     height: 50px;
@@ -31,5 +34,35 @@ nav .logo img{
     font-weight: bold;
     align-items: center;
     font-size: 1.2em;
+}
 
+.container{
+    min-height: 70vh;
+}
+
+.bottom{
+    position:sticky;
+    background-color: rgb(10, 15, 15);
+    color: white;
+    height: 100px;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#progressBar{
+    width: 90vw;
+    /* display: block;
+    margin: auto; */
 }
