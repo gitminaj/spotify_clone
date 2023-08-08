@@ -37,7 +37,14 @@ nav .logo img{
 }
 
 .container{
-    min-height: 70vh;
+    min-height: 76vh;
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 15px;
+    background-image: url("songbg.png");
 }
 
 .bottom{
@@ -63,6 +70,31 @@ nav .logo img{
 
 #progressBar{
     width: 90vw;
-    /* display: block;
-    margin: auto; */
+}
+
+.songItems{
+    height: 30px;
+    background-color: rgb(231, 240, 237);
+    color: black;
+    display: flex;
+    padding: 5px 2px;
+    width: 40%;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.songItems img{
+    width: 45px;
+    border-radius: 50px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 30px;
 }
